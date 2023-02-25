@@ -1,8 +1,8 @@
 (function ($) {
 "use strict";
+/* test */
 
-
-	/* Preloader */
+	/* Preloader */ 
 	var win = $(window);
 	win.on('load',function() {
 		$('.page-loader').delay(350).fadeOut('slow');
